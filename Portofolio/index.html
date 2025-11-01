@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Web Portofolio Ario</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="sticky top-0 z-10 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center p-4">
+        <div class="text-3xl font-extrabold text-white">
+          <a href="#home" class="hover:text-sky-500">ArioW</a>
+        </div>
+
+        <nav class="flex space-x-6">
+          <a
+            href="#home"
+            class="text-white hover:text-cyan-400 text-lg transition duration-300"
+            >Home</a
+          >
+          <a
+            href="#profil"
+            class="text-white hover:text-cyan-400 text-lg transition duration-300"
+            >Profil</a
+          >
+          <a
+            href="#portofolio"
+            class="text-white hover:text-cyan-400 text-lg transition duration-300"
+            >Portofolio</a
+          >
+          <a
+            href="#kontak"
+            class="text-white hover:text-cyan-400 text-lg transition duration-300"
+            >Kontak</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <section
+      id="home"
+      class="text-center py-30 px-4 bg-white shadow-md flex justify-center items-center gap-8"
+    >
+      <div class="flex flex-col w-1/4">
+        <img
+          src="asset/Foto Profil 1.jpg"
+          alt="Foto Profil Ario Wiryawan Samsudar"
+          class="w-100 h-100 rounded-4xl border-black mx-auto mb-4"
+        />
+      </div>
+      <section class="w-1/2">
+        <h1 class="text-5xl font-bold mb-4 text-left">
+          Halo!, saya Ario
+        </h1>
+        <p class="text-xl text-blue-950 text-left">
+          Web Developer | Menciptakan Pengalaman Digital yang Fungsional &
+          Menarik
+        </p>
+        <br />
+        <p class="text-base text-dark-800 text-left">
+          Saya adalah seorang mahasiswa semester 3 di Universitas Dian Nuswantoro
+          (UDINUS) Semarang, jurusan Sistem Informasi. Saya memiliki minat
+          yang besar dalam pengembangan web dan bersemangat untuk belajar.
+        </p>
+        </div>
+      </section>
+    </section>
+
+    <section
+      id="profil"
+      class="text-center mt-16 py-20 px-4 bg-white shadow-md flex justify-center items-center gap-8"
+    >
+      <div class="flex flex-col w-1/4">
+        <img
+          src="asset/Foto Profil 2.jpg"
+          alt="Foto Profil Ario Wiryawan Samsudar"
+          class="w-50 h-50 rounded-full object-cover shadow-xl border-black mx-auto mb-4"
+        />
+        <img src="asset/Website 2.png" alt="Website" class="w-50 h-50 rounded-xl object-cover shadow-xl border-black mx-auto mb-4" />
+      </div>
+      <section class="w-1/2">
+        <h1 class="text-5xl font-bold mb-4 text-left">
+          Halo, saya Ario Wiryawan Samsudar
+        </h1>
+
+        <p class="text-base text-dark-800 text-left">
+          Saya adalah seseorang yang memiliki keinginan kuat dalam membangun
+          solusi digital yang efektif dan mudah digunakan dengan cara Web Developer. Sebagai Mahasiswa
+          UDINUS Semarang, saya berkeinginan mengubah konsep desain menjadi kode yang
+          rapi, responsif, dan optimal. Saya cukup tertarik dan lumayan terampil dalam pengembangan
+          front-end dan terus mengeksplorasi teknologi baru untuk memberikan
+          nilai tambah pada setiap proyek.
+        </p> <br>
+        <p class="text-base text-dark-800 text-left">
+          Saya tertarik pada pengembangan web front-end karena saya menikmati proses saat menciptakan
+          sesuatu yang dapat diakses dan digunakan oleh banyak orang. Saya percaya bahwa
+          teknologi web memiliki potensi besar untuk mengubah cara kita berinteraksi.
+        </p>
+        <br />
+
+        <h3 class="text-lg font-semibold text-gray-900 mb-3 text-left">
+          Deskripsi Diri Singkat:
+        </h3>
+        <ul class="text-left list-disc list-inside mb-6">
+          <li>Usia: 20 Tahun</li>
+          <li>Domisili: Semarang Tengah, Jawa Tengah</li>
+          <li>Pendidikan: Mahasiswa Sistem Informasi di UDINUS Semarang</li>
+          <li>Hobi: Membaca Novel dan Bermain Game</li>
+        </ul>
+        
+
+        <h3 class="text-lg font-semibold text-gray-900 mb-3 text-left">
+          Keahlian Dasar:
+        </h3>
+        <div class="flex flex-wrap gap-3 mb-8">
+          <span
+            class="px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full"
+            >HTML & CSS</span
+          >
+          <span
+            class="px-3 py-1 bg-cyan-100 text-cyan-800 text-sm font-medium rounded-full"
+            >Tailwind CSS</span
+          >
+          <span
+            class="px-3 py-1 bg-green-100 text-green-800 text-sm font-medium rounded-full"
+            >JavaScript (DOM)</span
+          >
+          <span
+            class="px-3 py-1 bg-green-100 text-green-800 text-sm font-medium rounded-full"
+            >GitHub (Dasar)</span
+          >
+        </div>
+      </section>
+    </section>
+
+    <section id="portofolio" class="container mx-auto p-8">
+      <h2 class="text-4xl mt-16 font-bold text-center mb-12">Portofolio Saya</h2>
+
+      <section class="catalog-container">
+        <section class="product-card">
+          <img src="asset/APK To-do List.jpg" alt="Porto 1" />
+          <h3 class="text-xl font-bold">Porto 1</h3>
+          <p class="price">Aplikasi Web To-do List</p>
+          <a href="porto1.html" class="inline-block w-25 text-center text-white py-2 font-normal rounded-lg transition duration-100"><button>Detail</button></a>
+        </section>
+
+        <section class="product-card">
+          <img src="asset/Desain Web Absensi Kelas.jpg" alt="Porto 2" />
+          <h3 class="text-xl font-bold">Porto 2</h3>
+          <p class="price">Desain Web Absensi Kelas</p>
+          <a href="porto2.html" class="inline-block w-25 text-center text-white py-2 font-normal rounded-lg transition duration-100"><button>Detail</button></a>
+        </section>
+
+        <section class="product-card">
+          <img src="asset/Desain Web Absensi Kelas.jpg" alt="Porto 3" />
+          <h3 class="text-xl font-bold">Porto 3</h3>
+          <p class="price">Desain Web Absensi Guru</p>
+          <a href="porto3.html" class="inline-block w-25 text-center text-white py-2 font-normal rounded-lg transition duration-100"><button>Detail</button></a>
+        </section>
+      </section>
+    </section>
+
+    <section id="kontak" class="container mx-auto p-8 my-8">
+      <h2 class="text-4xl mt-16 font-bold text-center mb-12">Hubungi Saya</h2>
+      <form
+        id="contact-form"
+        class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg"
+      >
+        <section class="mb-4">
+          <label for="nama" class="block text-gray-700 font-medium mb-2"
+            >Nama:</label
+          >
+          <input
+            type="text"
+            id="nama"
+            name="nama"
+            class="w-full p-3 border border-gray-300 rounded-lg"
+            required
+          />
+        </section>
+        <section class="mb-4">
+          <label for="email" class="block text-gray-700 font-medium mb-2"
+            >Email:</label
+          >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="w-full p-3 border border-gray-300 rounded-lg"
+            required
+          />
+        </section>
+        <section class="mb-4">
+          <label for="pesan" class="block text-gray-700 font-medium mb-2"
+            >Pesan:</label
+          >
+          <textarea
+            id="pesan"
+            name="pesan"
+            rows="4"
+            class="w-full p-3 border border-gray-300 rounded-lg"
+            required
+          ></textarea>
+        </section>
+        <button
+          type="submit"
+          class="w-full bg-blue-400 text-white p-3 rounded-lg font-bold hover:bg-sky-700 transition duration-300"
+        >
+          Kirim
+        </button>
+      </form>
+    </section>
+
+    <footer class="text-white p-4 mt-20">
+      <div
+        class="container mx-auto flex flex-col md:flex-row justify-between items-center text-sm"
+      >
+        <p class="mb-3 md:mb-0">
+          &copy; 2025 Ario Wiryawan S. All Rights Reserved.
+        </p>
+
+        <div class="flex space-x-4 text-2xl">
+          <a
+            href="https://www.instagram.com/a.r.i.o.w/"
+            target="_blank"
+            class="hover:text-cyan-400 transition duration-300 transform hover:scale-110"
+          >
+            <span class="font-bold"><img src="asset/Instagram Hitam Putih.png" alt="instagram" class="w-8 h-8"></span>
+          </a>
+
+          <a
+            href="https://github.com/ariow24/Portofolio-Web.git"
+            target="_blank"
+            class="hover:text-cyan-400 transition duration-300 transform hover:scale-110"
+          >
+            <span class="font-bold"><img src="asset/Github.png" alt="Github" class="w-8 h-8"></span>
+          </a>
+
+          <a
+            href="https://discord.com/users/1175083146560151652"
+            target="_blank"
+            class="hover:text-cyan-400 transition duration-300 transform hover:scale-110"
+          >
+            <span class="font-bold"><img src="asset/Discord.png" alt="Discord" class="w-8 h-8"></span>
+          </a>
+
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
